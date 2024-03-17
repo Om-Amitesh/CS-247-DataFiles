@@ -1,7 +1,7 @@
 # CS 247 DataFiles
 Code that was used to preprocess the entirety of english wikipedia to a section-level granular dataset for document reccomendation for the course project of UCLA CS 247 - Advanced Data Mining.
 ## Automated Run:
-1. Ensure the `enwiki-latest-pages-articles.xml` file is present in the root directory.
+1. Ensure the `enwiki-latest-pages-articles.xml` file is present in the same directory as the `run.sh` file.
 2. Follow the instructions on the run.sh file and make changes if necessary.
 3. run `bash run.sh` to complete dataset creation.
 4. Output files and directories:
