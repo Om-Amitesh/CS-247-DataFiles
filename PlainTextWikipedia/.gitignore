@@ -1,0 +1,4 @@
+simple_wiki.sqlite
+*.sqlite
+.DS_Store
+__pycache__/
