@@ -1,0 +1,12 @@
+simple_wiki.sqlite
+*.sqlite
+.DS_Store
+__pycache__/
+enwiki-latest-pages-articles.xml
+label2id.json
+id2label.json
+index.txt
+data/
+data/*
+enc_labs.npz
+enc_txt.npz
