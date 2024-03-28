@@ -24,7 +24,7 @@ Here's a schema:
     "sections" :[
         {
             "content" : "Section contents (Cleaned)",
-            "links" : [ "Page Title Linked", ],
+            "links" : [ "Page Title Linked", "Page Title Linked" ],
             "title" : "Section Title: Subsection Title"
         }
     ]
