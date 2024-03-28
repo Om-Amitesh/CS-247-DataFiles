@@ -3,7 +3,7 @@ Code that was used to preprocess the entirety of english wikipedia to a section-
 ## Automated Run:
 1. Ensure the `enwiki-latest-pages-articles.xml` file is present in the same directory as the `run.sh` file.
 2. Follow the instructions on the run.sh file and make changes if necessary.
-3. run `bash run.sh` to complete dataset creation.
+3. On your terminal, run `bash run.sh` to complete dataset creation.
 4. Output files and directories:
     1. `label2id.json` : name implied, a mapping of titles to ids
     2. `id2label.json` : name implied, a mapping of ids to titles
@@ -16,6 +16,21 @@ Code that was used to preprocess the entirety of english wikipedia to a section-
 Kindly follow instructions in the load_data.py file and use the starter code from there.
 
 # Other:
+## How are the jsons structured??
+Here's a schema:
+```json
+{
+    "id" : 123,
+    "sections" :[
+        {
+            "content" : "Section contents (Cleaned)",
+            "links" : [ "Page Title Linked", ],
+            "title" : "Section Title: Subsection Title"
+        }
+    ]
+    "title" : "Article Title"
+}
+```
 ## How to create section-level aggregated data?
 Kindly follow the README file in the PlainTextWikipedia folder.
 ## How to tokenize?
