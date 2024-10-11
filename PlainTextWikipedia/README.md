@@ -1,5 +1,6 @@
 # PlainTextWikipedia
 
+This Code is taken from the (now-archived) [Github repo](https://github.com/daveshap/PlainTextWikipedia.git)
 Convert Wikipedia database dumps into plain text files (JSON). This can parse literally all of Wikipedia with pretty high fidelity. There's a copy available on [Kaggle Datasets](https://www.kaggle.com/ltcmdrdata/plain-text-wikipedia-202011)
 
 
